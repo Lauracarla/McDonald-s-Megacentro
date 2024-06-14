@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+     /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#f9b300+0,fccd4d+37,ff0000+90 */
+background: linear-gradient(to bottom,  rgba(249,179,0,1) 0%,rgba(252,205,77,1) 37%,rgba(255,0,0,1) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+   
+}
+
+header nav a:hover{
+
+color: #fff;
+
+}
+
+
+.map{
+    width: 1250px;
+    height: 500px;
+    background: #333;
+    margin: 30px 10px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+
+footer {
+    background-color: #7b7b7b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social {
+    margin-top: 10px;
+}
+
+footer .social a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social img {
+    width: 24px;
+}
